@@ -1,0 +1,14 @@
+CREATE DATABASE registration;
+
+USE registration;
+
+CREATE TABLE student (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  first_name VARCHAR(50),
+  last_name VARCHAR(50),
+  email VARCHAR(100),
+  date_of_birth DATE
+);
+
+INSERT INTO student (first_name, last_name, email, date_of_birth)VALUES ("kaka", "jade", "king@example.com", "2020-01-01"),("manzi", "john", "janedoe@example.com", "2011-02-01"),
+("kamasa", "Smith", "jimsmith@example.com", "1999-03-01");
